@@ -2,7 +2,10 @@
 * {
   font-family: 'Montserrat', 'sans-serif', ;
 }
-
+body {
+  background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+}
 
 .section {
 background-image: url(https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
@@ -38,7 +41,7 @@ position: relative;
   color: white;
   border-radius: 25px;
   border: 1px solid gray;
-  width: 200px;
+  /* width: max-content; */
   justify-content: center;
 }
 #letterBtn:hover {
@@ -53,92 +56,32 @@ position: relative;
 }
 .container {
   padding: 10px;
+  width: 100vh;
+}
+
+@media only screen and (max-width: 275px){
+  body {
+    width: 70vh;;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  body {
+    width: 70vh;;
+  }
+}
+
+@media only screen and (max-width: 540px){
+  body {
+    width: 80vh;;
+  }
 }
 
 
-@media only screen and (max-width: 280px) {
-  
-  .section {
-    
-    flex-direction:column;
-    margin-top: 25px;
-   
-  }
-  .row {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100vh;
-  }
-  #allLogos {
-    margin-top: 65px;
-  }
-  .contactBtn {
-    margin-bottom: 25px;
-  }
-  
-}
-@media only screen and (max-width: 375px) {
-  
-  .section {
-    
-    flex-direction:column;
-    margin-top: 25px;
-    
-  }
-  .row {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100vh;
-  }
-  #allLogos {
-    margin-top: 65px;
-  }
-  .contactBtn {
-    margin-bottom: 25px;
-  }
-}
-@media only screen and (max-width: 540px) {
-  
-  .section {
-    
-    flex-direction:column;
-    margin-top: 25px;
-    width: 80%;
-  }
-  .row {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100vh;
-  }
-  .contactBtn {
-    margin-top: 25px;
-  }
-  #allLogos {
-    margin-top: 65px;
-  }
-  .contactBtn {
-    margin-bottom: 25px;
-  }
-  
-}
 @media only screen and (max-width: 768px) {
   
-  .section {
-    
-    flex-direction:column;
-    margin-top: 25px;
-    width: 80%;
-  }
-  .row {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100vh;
-  }
-  #allLogos {
-    margin-top: 65px;
-  }
-  .contactBtn {
-    margin-bottom: 25px;
+  body {
+    width: 80vh;
   }
 }
 @media only screen and (min-width: 1024px) {
