@@ -54,8 +54,8 @@ const AllLogos = () => {
 
   return (
     <div>
-      <div className="nav">
-        <div className="menu">
+      <div className="navBtn">
+        <div className="logoInfo" id='infoLogo'>
           {logoItems.map((item, i) => (
             <Button
               className="letterBtn"

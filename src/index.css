@@ -1,24 +1,24 @@
-
 * {
-  font-family: 'Montserrat', 'sans-serif', ;
+  font-family: "Montserrat", "sans-serif";
 }
 body {
   background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   background-size: cover;
+  margin: 0;
 }
 #navBar {
   background-color: white;
 }
 
 .section {
-background-image: url(https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
-background-size: cover;
-background-repeat: no-repeat;
-padding: 95px;
-border-radius: 90px;
-display: inline-block;
-margin: 25px;
-position: relative;
+  background-image: url(https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 95px;
+  border-radius: 90px;
+  display: inline-block;
+  margin: 25px;
+  position: relative;
 }
 #contactBtn {
   background-color: goldenrod;
@@ -31,7 +31,6 @@ position: relative;
   position: relative;
 }
 #contactBtn:hover {
-  
   border-radius: 65px;
   justify-content: end;
   float: right;
@@ -51,7 +50,6 @@ position: relative;
   background-color: white;
   border-radius: 25px;
   border: 1px solid gray;
-  
 }
 #allLogos {
   margin-top: 65px;
@@ -59,7 +57,6 @@ position: relative;
 .container {
   padding: 20px;
   flex-flow: row wrap;
-  
 }
 #logo1 {
   padding: 20px;
@@ -67,39 +64,53 @@ position: relative;
 .row {
   padding: 10px;
 }
-
-
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 375px) {
   .section {
-    width: 80vh;;
+    width: max-content;
   }
-  .row, .container {
-    width: 100vh;
+  .row {
+    width: max-content;
+    flex-wrap: wrap;
   }
-}
-
-
-@media only screen and (max-width: 768px) {
-  
-  .section {
-    width: 75vh;;
-  }
-  .row, .container {
-    width: 100vh;
-    overflow: hidden;
-  }
- 
   #logo1 {
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
-    width: 15vh;
     margin: 0;
     padding: 18px;
   }
+  #letterBtn {
+    flex-flow: column wrap;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .section {
+    flex-direction: row wrap;
+  }
+  #infoLogo {
+    flex-direction: column;
+  }
+
+  .navBtn {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    flex-direction: row wrap;
+  }
+  .row,
+  .container {
+    flex-direction: row wrap;
+  }
+
+  #logo1 {
+    flex-direction: column;
+    overflow: hidden;
+  }
 }
 @media only screen and (min-width: 1024px) {
-  .section   {
-    display:flex;
+  .section {
+    display: flex;
   }
 }
