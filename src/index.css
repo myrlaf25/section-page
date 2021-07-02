@@ -93,7 +93,9 @@ body {
   }
   .row {
     width: max-content;
+    display: flex;
     flex-wrap: wrap;
+    position: relative;
   }
   #logo1 {
     overflow: hidden;
@@ -101,6 +103,7 @@ body {
     padding: 18px;
   }
   #letterBtn {
+    display: flex;
     flex-flow: column wrap;
   }
 }
