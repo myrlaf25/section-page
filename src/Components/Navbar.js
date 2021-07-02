@@ -10,7 +10,7 @@ function Navbar() {
   const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
   return (
-    <div className="navbar">
+    <div className="navbar" id='navBar'>
     <Container className='headerContainer'>
    <img 
    className='logo'
