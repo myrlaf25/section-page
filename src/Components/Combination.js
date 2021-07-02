@@ -17,13 +17,13 @@ const Combination = () => (
             <Col md='auto'>
               <Row>
                 <Col sm="auto">
-                  <img src={doritosLogo} alt="hbo" />
+                  <img id='logo1' src={doritosLogo} alt="hbo" />
                 </Col>
                 <Col sm="auto">
-                  <img src={burgerkingLogo} alt="ibm" />
+                  <img id='logo1' src={burgerkingLogo} alt="ibm" />
                 </Col>
                 <Col sm="auto">
-                  <img src={lacosteLogo} alt="nasa" />
+                  <img id='logo1' src={lacosteLogo} alt="nasa" />
                 </Col>
               </Row>
             </Col>

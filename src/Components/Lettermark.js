@@ -22,13 +22,13 @@ const Lettermark = () => (
         <Col md='auto'>
           <Row>
             <Col sm="auto">
-              <img src={hboLogo} alt="hbo" style={{width: '100', heigth: '100', margin: '0', padding: '3px'}} />
+              <img id='logo1' src={hboLogo} alt="hbo" style={{width: '100', heigth: '100', margin: '0', padding: '3px'}} />
             </Col>
             <Col sm="auto">
-              <img src={ibmLogo} alt="ibm" style={{ width: '100', heigth: '100', margin: '0', padding: '3px'}}  />
+              <img id='logo1' src={ibmLogo} alt="ibm" style={{ width: '100', heigth: '100', margin: '0', padding: '3px'}}  />
             </Col>
             <Col sm="auto">
-              <img src={nasaLogo} alt="nasa" style={{  width: '100', heigth: '100', margin: '0', padding: '3px'}} />
+              <img id='logo1' src={nasaLogo} alt="nasa" style={{  width: '100', heigth: '100', margin: '0', padding: '3px'}} />
             </Col>
           </Row>
         </Col>

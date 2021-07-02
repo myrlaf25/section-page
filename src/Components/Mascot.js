@@ -17,13 +17,13 @@ const Mascot = () => (
             <Col md="auto">
               <Row>
                 <Col sm="auto">
-                  <img src={koolaidLogo} alt="hbo" />
+                  <img id='logo1' src={koolaidLogo} alt="hbo" />
                 </Col>
                 <Col sm="auto">
-                  <img src={kfcLogo} alt="ibm" />
+                  <img id='logo1' src={kfcLogo} alt="ibm" />
                 </Col>
                 <Col sm="auto">
-                  <img src={wallyLogo} alt="nasa" />
+                  <img id='logo1' src={wallyLogo} alt="nasa" />
                 </Col>
               </Row>
             </Col>

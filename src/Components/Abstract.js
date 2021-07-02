@@ -17,13 +17,13 @@ const Abstract = () => (
             <Col md='auto'>
               <Row>
                 <Col sm="auto">
-                  <img src={bpLogo} alt="hbo" />
+                  <img id='logo1' src={bpLogo} alt="hbo" />
                 </Col>
                 <Col sm="auto">
-                  <img src={pepsiLogo} alt="ibm" />
+                  <img id='logo1' src={pepsiLogo} alt="ibm" />
                 </Col>
                 <Col sm="auto">
-                  <img src={adidasLogo} alt="nasa" />
+                  <img id='logo1' src={adidasLogo} alt="nasa" />
                 </Col>
               </Row>
             </Col>

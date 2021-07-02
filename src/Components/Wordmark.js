@@ -17,13 +17,13 @@ const Wordmark = () => (
             <Col md='auto'>
               <Row>
                 <Col sm="auto">
-                  <img src={visaLogo} alt="hbo" />
+                  <img id='logo1' src={visaLogo} alt="hbo" />
                 </Col>
                 <Col sm="auto">
-                  <img src={cocaLogo} alt="ibm" />
+                  <img id='logo1' src={cocaLogo} alt="ibm" />
                 </Col>
                 <Col sm="auto">
-                  <img src={googleLogo} alt="nasa" />
+                  <img id='logo1' src={googleLogo} alt="nasa" />
                 </Col>
               </Row>
             </Col>

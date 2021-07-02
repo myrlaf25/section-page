@@ -15,7 +15,6 @@ padding: 95px;
 border-radius: 90px;
 display: inline-block;
 margin: 25px;
-width: 90%;
 position: relative;
 }
 #contactBtn {
@@ -56,32 +55,44 @@ position: relative;
 }
 .container {
   padding: 10px;
-  width: 100vh;
+  
 }
-
-@media only screen and (max-width: 275px){
-  body {
-    width: 70vh;;
+@media only screen and (max-width: 375px){
+  .section {
+    width: 80vh;;
   }
-}
-
-@media only screen and (max-width: 360px){
-  body {
-    width: 70vh;;
-  }
+  /* .row {
+    width: 100vh;
+  } */
 }
 
 @media only screen and (max-width: 540px){
-  body {
+  .section {
     width: 80vh;;
   }
+  /* .row {
+    width: 100vh;
+  } */
 }
 
 
 @media only screen and (max-width: 768px) {
   
-  body {
-    width: 80vh;
+  .section {
+    width: 75vh;;
+  }
+  .row {
+    width: 110vh;
+    overflow: hidden;
+  }
+  .allLogos {
+    overflow: hidden;
+  }
+  #logo1 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 15vh;
   }
 }
 @media only screen and (min-width: 1024px) {

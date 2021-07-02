@@ -17,13 +17,13 @@ const Pictorial = () => (
             <Col md="auto">
               <Row>
                 <Col sm="auto">
-                  <img src={appleLogo} alt="hbo" />
+                  <img id='logo1' src={appleLogo} alt="hbo" />
                 </Col>
                 <Col sm="auto">
-                  <img src={twitterLogo} alt="ibm" />
+                  <img id='logo1' src={twitterLogo} alt="ibm" />
                 </Col>
                 <Col sm="auto">
-                  <img src={targetLogo} alt="nasa" />
+                  <img id='logo1' src={targetLogo} alt="nasa" />
                 </Col>
               </Row>
             </Col>
