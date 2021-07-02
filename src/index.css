@@ -61,34 +61,21 @@ position: relative;
   flex-flow: row wrap;
   
 }
-
+#logo1 {
+  padding: 20px;
+}
 .row {
   padding: 10px;
-  /* font-size: 20px; */
-}
-@media only screen and (max-width: 280px){
-  .section {
-    width: 10vh;
-  }
 }
 
-@media only screen and (max-width: 375px){
-  .section {
-    width: 20vh;;
-  }
-  .row {
-    width: 100vh;
-    flex-flow: wrap;
-  }
-}
 
 @media only screen and (max-width: 540px){
   .section {
     width: 80vh;;
   }
-  /* .row {
+  .row, .container {
     width: 100vh;
-  } */
+  }
 }
 
 
@@ -97,7 +84,7 @@ position: relative;
   .section {
     width: 75vh;;
   }
-  .row {
+  .row, .container {
     width: 100vh;
     overflow: hidden;
   }
@@ -107,6 +94,8 @@ position: relative;
     flex-direction: column;
     overflow: hidden;
     width: 15vh;
+    margin: 0;
+    padding: 18px;
   }
 }
 @media only screen and (min-width: 1024px) {
