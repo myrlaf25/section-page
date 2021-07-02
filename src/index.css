@@ -66,15 +66,14 @@ body {
 }
 @media only screen and (max-width: 280px) {
   .section {
-    width: max-content;
+    width: min-content;
     display:flex;
     flex-direction: column;
   }
   .row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    width: 10vh;
+    width: min-content;
   }
   #logo1 {
     overflow: hidden;
@@ -89,10 +88,10 @@ body {
 }
 @media only screen and (max-width: 375px) {
   .section {
-    width: max-content;
+    width: min-content;
   }
   .row {
-    width: max-content;
+    width: min-content;
     display: flex;
     flex-wrap: wrap;
     position: relative;
