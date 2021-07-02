@@ -10,24 +10,24 @@ const Combination = () => (
     
       <Card>
         <CardBody>
-          <Row>
-            <Col xs="4">
+         
+            <Col sm="6">
               <h2>Combination Logos</h2>A combination mark is a logo comprised of a combined wordmark or lettermark and a pictorial mark, abstract mark, or mascot. The picture and text can be laid out side-by-side, stacked on top of each other, or integrated together to create an image.<br></br>Because a name is associated with the image, a combination mark is a versatile choice, with both the text and icon or mascot working together to reinforce your brand.
             </Col>
-            <Col md='auto'>
+            <Col sm='auto'>
               <Row>
-                <Col sm="auto">
+                <Col md="auto">
                   <img id='logo1' src={doritosLogo} alt="hbo" />
                 </Col>
-                <Col sm="auto">
+                <Col md="auto">
                   <img id='logo1' src={burgerkingLogo} alt="ibm" />
                 </Col>
-                <Col sm="auto">
+                <Col md="auto">
                   <img id='logo1' src={lacosteLogo} alt="nasa" />
                 </Col>
               </Row>
             </Col>
-          </Row>
+         
         </CardBody>
       </Card>
     
